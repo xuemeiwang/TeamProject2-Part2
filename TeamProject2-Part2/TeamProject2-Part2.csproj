@@ -173,6 +173,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\RestaurantController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -192,12 +193,46 @@
     <Content Include="Assets\images\AppetizerHome.jpg" />
     <Content Include="Assets\images\background.jpg" />
     <Content Include="Assets\images\bannerjpg.jpg" />
+    <Content Include="Assets\images\Beansoup-large.jpg" />
+    <Content Include="Assets\images\Beansoup.jpg" />
     <Content Include="Assets\images\Box.jpg" />
+    <Content Include="Assets\images\Congbaobeef-large.jpg" />
+    <Content Include="Assets\images\Congbaobeef.jpg" />
+    <Content Include="Assets\images\Dandanmian-large.jpg" />
+    <Content Include="Assets\images\Dandanmian.jpg" />
     <Content Include="Assets\images\DimSumHome.jpg" />
     <Content Include="Assets\images\Entreehome.jpg" />
+    <Content Include="Assets\images\Fuqifeipian-large.jpg" />
+    <Content Include="Assets\images\Fuqifeipian.jpg" />
+    <Content Include="Assets\images\Hotandsour-large.jpg" />
+    <Content Include="Assets\images\Hotandsour.jpg" />
+    <Content Include="Assets\images\Koushuichicken-large.jpg" />
+    <Content Include="Assets\images\Koushuichicken.jpg" />
+    <Content Include="Assets\images\Kungpaochicken-large.jpg" />
+    <Content Include="Assets\images\Kungpaochicken.jpg" />
+    <Content Include="Assets\images\Liangfen-large.jpg" />
+    <Content Include="Assets\images\Liangfen.jpg" />
     <Content Include="Assets\images\logo.png" />
+    <Content Include="Assets\images\Longchaoshou-large.jpg" />
+    <Content Include="Assets\images\Longchaoshou.jpg" />
+    <Content Include="Assets\images\Lotusroot-large.jpg" />
+    <Content Include="Assets\images\Lotusroot.jpg" />
+    <Content Include="Assets\images\Mapodoufu.jpg" />
     <Content Include="Assets\images\map.png" />
+    <Content Include="Assets\images\Mapodoufu-large.jpg" />
+    <Content Include="Assets\images\Meatandtofu-large.jpg" />
+    <Content Include="Assets\images\Meatandtofu.jpg" />
+    <Content Include="Assets\images\Nanguabing-large.jpg" />
+    <Content Include="Assets\images\Nanguabing.jpg" />
+    <Content Include="Assets\images\Paocai-large.jpg" />
+    <Content Include="Assets\images\Paocai.jpg" />
+    <Content Include="Assets\images\Shuizhuyu-large.jpg" />
+    <Content Include="Assets\images\Shuizhuyu.jpg" />
     <Content Include="Assets\images\SoupHome.jpg" />
+    <Content Include="Assets\images\Zhongshuijiao-large.jpg" />
+    <Content Include="Assets\images\Zhongshuijiao.jpg" />
+    <Content Include="Assets\images\Ziranlamb-large.jpg" />
+    <Content Include="Assets\images\ZiranLamb.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -273,6 +308,9 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Restaurant\Index.cshtml" />
+    <Content Include="Views\Restaurant\Browse.cshtml" />
+    <Content Include="Views\Restaurant\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
