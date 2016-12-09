@@ -2,7 +2,7 @@
 @model Item
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = Model.Title;
 }
 
 <h2>Details</h2>
@@ -31,6 +31,14 @@
         </dt>
         <dd>
             <img src="@Html.DisplayFor(model => model.ItemLargeIconUrl)" class="img-rounded" height="400" width="600" />
+        </dd>
+        <dt>
+
+        </dt>
+        <dd style="padding-top: 6px">
+            <p class="btn btn-success btn-lg">
+                @Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = Model.ItemId }, "")
+            </p>
         </dd>
     </dl>
 </div>
